@@ -1,0 +1,54 @@
+@CHARSET "UTF-8";
+body{
+	font-family:Arial,helvetica,verdana,sans-serif;
+	font-size:20px;
+	color:#666666;
+	background:#ffffff;
+}
+ 
+html,body{
+	margin:0;
+	padding:0;
+}
+
+
+#header{
+	//background:blue;
+	height:150px;
+	background:#db6d16 
+	url("../image/headers/coffeebean.jpg");
+}
+#content{
+	
+	margin:20px;
+	padding-left:50px;
+}
+#footer{
+	clear:both;
+	margin-top:100px;
+	//background:orange;
+	height:66px;
+	font-family:Tahoma,Arial,helvetica,verdana,sans-serif;
+	font-size:10px;
+	color:#c9c9c9;
+}
+#footer a{
+	color:#c9c9c9;
+	text-decoration:none;
+}
+h1{
+	
+	font-size:60px;
+	color:white;
+	margin:0;
+	padding:10px;
+}
+h2{
+	
+	font-size:30px;
+	color:orange;
+	margin:0;
+	padding:10px;
+}
+
+

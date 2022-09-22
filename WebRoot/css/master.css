@@ -1,0 +1,153 @@
+@CHARSET "UTF-8";
+body{
+	font-family:Arial,helvetica,verdana,sans-serif;
+	font-size:12px;
+	color:#666666;
+	background:#ffffff;
+}
+ /* #page-container{
+	width:760px;
+	margin:auto;
+	background:red;
+}  */
+html,body{
+	margin:0;
+	padding:0;
+}
+#main-nav{
+	background:brown;
+	height:50px;
+	margin:0;
+	padding-right:11px;
+	overflow:hidden;
+}
+form{
+	color:white;
+	/* padding-right:100px; */
+	float:right;
+	font-family:Tahoma,Arial,helvetica;
+	font-size:20px;
+	margin:0;
+}
+#header{
+	//background:blue;
+	height:150px;
+	background:#db6d16 
+	url("../image/headers/coffeebean.jpg");
+}
+#sidebar-a{
+	//background:#fd1c02;
+	float:left;
+	width:400px;
+	padding-left:200px;
+	margin-top:50px;
+	//line-height:18px;
+}
+#content-a{
+	//background:green;
+	/* margin:280px;
+	padding:25px; */
+	//line-height:18px;
+}
+#content-a h2{
+	margin-top:100px;
+	padding:0;
+	padding-bottom:15px;
+	color:orange;
+	font-size:50px;
+}
+#content-a p{
+	margin:50px;
+	padding-right:200px;
+	padding-bottom:15px;
+	line-height:20px;
+}
+#sidebar-b{
+	clear:both;
+	float:left;
+	width:500px;
+	padding-left:100px;
+	margin-top:50px;
+	//line-height:18px;
+}
+#content-b{
+	padding-left:100px;
+} 
+#content-b h2{
+	margin-top:200px;
+	
+	color:#fd1c02;
+	font-size:50px;
+}
+#content-b p{
+	margin:50px;
+	padding-right:200px;
+	line-height:20px;
+}
+#footer{
+	clear:both;
+	margin-top:100px;
+	//background:orange;
+	height:66px;
+	font-family:Tahoma,Arial,helvetica,verdana,sans-serif;
+	font-size:10px;
+	color:#c9c9c9;
+}
+#footer a{
+	color:#c9c9c9;
+	text-decoration:none;
+}
+h1{
+	/* margin:0;
+	padding:0;
+	float:right;
+	margin-top:57px;
+	padding-right:31px; */
+	font-size:60px;
+	color:white;
+	margin:0;
+	padding:10px;
+}
+#btn {
+      /* 文字颜色 */
+      color: #0099CC; 
+      /* 清除背景色 */
+      background: transparent; 
+      /* 边框样式、颜色、宽度 */
+      border: 2px solid #0099CC;
+      /* 给边框添加圆角 */
+      border-radius: 6px; 
+      /* 字母转大写 */
+      border: none;
+      color: white;
+      padding: 16px 32px;
+      text-align: center;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      -webkit-transition-duration: 0.4s; /* Safari */
+      transition-duration: 0.4s;
+      cursor: pointer;
+      text-decoration: none;
+      text-transform: uppercase;
+}
+#btn {
+      background-color: white; 
+      color: black; 
+      border: 2px solid #008CBA;
+}
+/* 悬停样式 */
+#btn:hover {
+      background-color: #008CBA;
+      color: white;
+}
+#content-a a{
+	color:#c9c9c9;
+	text-decoration:none;
+}
+#content-b a{
+	color:#c9c9c9;
+	text-decoration:none;
+}
+
+
